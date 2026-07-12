@@ -245,7 +245,7 @@ content: url('https://i.postimg.cc/Y9brgWBS/nav.png');}
     content:"";
     position:fixed;
 
-    bottom:30;
+    bottom:-30;
     left:50%;
 
     width:350px;
