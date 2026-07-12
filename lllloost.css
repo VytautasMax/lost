@@ -227,3 +227,6 @@ content: url("https://i.postimg.cc/GT2Mbs3w/746463315-1381033347243767-241390437
 img[src$="addbeetlemound.png"] {
 content: url("https://i.postimg.cc/GT2Mbs3w/746463315-1381033347243767-2413904374900258847-n.jpg") !important;
 }
+img[src$="cavedefault.jpg"] {
+content: url("https://i.postimg.cc/Fkbf6fvK/CORVETTE.jpg") !important;
+}
