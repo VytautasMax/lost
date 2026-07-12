@@ -200,3 +200,9 @@ border-left: none;
 body, * {
     cursor: url("https://cdn.cursors-4u.net/previews/avro-vulcan-b-2-military-jet-a2e6a820-32.webp") 16 16, auto !important;
 }
+div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
+    content: url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg");
+}
+	<div class="pagedoll">
+    <img src="https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg">
+</div>
