@@ -198,6 +198,8 @@ border-left: none;
 	z-index: 100;
 	color: #ffffff;
 }
-{
-    cursor: url(https://cdn.cursors-4u.net/previews/avro-vulcan-b-2-military-jet-a2e6a820-32.webp), auto !important;
+/* Avro Vulcan B.2 Military Jet - https://www.cursors-4u.com/cursor/avro-vulcan-b-2-military-jet */
 }
+  cursor: url('https://cdn.cursors-4u.net/previews/avro-vulcan-b-2-military-jet-a2e6a820-32.webp') 32 32, auto !important;
+}
+/* End www.Cursors-4U.com Code */
