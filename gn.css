@@ -231,3 +231,19 @@ content: url("https://i.postimg.cc/qzTZqPWP/742185681-1387645573263968-822885663
 img[src$="caveunused.jpg"] {
 content: url("https://i.postimg.cc/T5pm33fD/742031157-1984855878885991-1652869808125409312-n.jpg") !important;
 }
+/* Bottom Panel */
+img[src$="den_achievements.png"] {
+content: url:("https://i.postimg.cc/QCtzzB9r/742530811-1338799865091108-7236270347880953646-n.jpg") !important;
+}
+img[src$="den_ancestors.png"] {
+content: url:("https://i.postimg.cc/QCtzzB9r/742530811-1338799865091108-7236270347880953646-n.jpg") !important;
+}
+img[src$="den_ancestorsfem.png"] {
+content: url:("https://i.postimg.cc/QCtzzB9r/742530811-1338799865091108-7236270347880953646-n.jpg") !important;
+}
+img[src$="den_showcase.png"] {
+content: url:("https://i.postimg.cc/QCtzzB9r/742530811-1338799865091108-7236270347880953646-n.jpg") !important;
+}
+img[src$="den_beetlebook.png"] {
+content: url:("https://i.postimg.cc/QCtzzB9r/742530811-1338799865091108-7236270347880953646-n.jpg") !important;
+}
