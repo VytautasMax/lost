@@ -237,19 +237,18 @@ content: url("https://i.postimg.cc/T5pm33fD/742031157-1984855878885991-165286980
 img[src$="logo-full-2.png"] {
 content: url('https://i.postimg.cc/Y9brgWBS/nav.png');}
 
-.col-md-9::after{
+body::after{
     content:"";
-    position:absolute;
-
+    position:fixed;
     bottom:0;
-    right:-120px;
+    right:calc(25% + 20px); /* Adjust until it sits just left of the sidebar */
 
-    width:500px;
-    height:350px;
+    width:350px;
+    height:500px;
 
     background:url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg") no-repeat bottom right;
     background-size:contain;
 
     pointer-events:none;
-    z-index:5;
+    z-index:10;
 }
