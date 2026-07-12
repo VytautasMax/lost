@@ -206,15 +206,14 @@ content: url('https://i.postimg.cc/XZf1LbDS/741901275-2049967022276435-590588218
 
 /*Nesting*/
 img[src$="nestingbanner.png"] {
-content: url('https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg')!important;
+content: url('https://i.postimg.cc/XZf1LbDS/741901275-2049967022276435-5905882186561249853-n.jpg')!important;
 }
 
 /*Overview*/
 img[src$="overviewbanner.png"] {
-content: url('https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg')!important;
+content: url('https://i.postimg.cc/XZf1LbDS/741901275-2049967022276435-5905882186561249853-n.jpg')!important;
 }
-a[href="https://www.lioden.com/cave.php?id=442974"] img {content: url('https://i.postimg.cc/pd4N2VfT/741901275-2049967022276435-5905882186561249853-n.jpg')!important;
-}
+
 /*Default Mound Image*/
 img[src$="beetleunsorted.png"] {
 content: url("https://i.postimg.cc/GT2Mbs3w/746463315-1381033347243767-2413904374900258847-n.jpg") !important;
