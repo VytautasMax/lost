@@ -191,6 +191,10 @@ background: rgba(93, 93, 93, 0.21);
 border: 1px solid #000;
 border-left: none;
 }
+
+    content:url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg") !important;
+
+}
 /* Credits */
 .breadcrumb {
     position: relative;
@@ -199,31 +203,20 @@ border-left: none;
 .breadcrumb::after {
     content: "CSS by Kyle Gaz Garrick (#496397)";
     position: absolute;
-    left: 15px;
     top: 50%;
+    right: 15px;
     transform: translateY(-50%);
     color: #fff;
     font-size: 12px;
     z-index: 9999;
     pointer-events: none;
 }
-.mound-grid img{
-
-    background:url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg") center/cover no-repeat;
-
-    width:0;
-    height:0;
-
-    padding-top:90px;
-    padding-right:140px;
+img[src$="beetleunsorted.png"]{
+    content: url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg") !important;
 }
-a[href$="unsorted.php?id=USERID"] div.cave-grid img{
-
-    content:url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg") !important;
-
+img[src$="beetlemound.png"]{
+    content: url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg") !important;
 }
-a[href$="dynasty.php?id=USERID"] div.cave-grid img{
-
-    content:url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg") !important;
-
+img[src$="addbeetlemound.png"]{
+    content: url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg") !important;
 }
