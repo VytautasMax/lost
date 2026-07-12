@@ -190,9 +190,6 @@ color: #000;
 background: rgba(93, 93, 93, 0.21);
 border: 1px solid #000;
 border-left: none;
-}
-
-    content:url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg") !important;
 
 }
 /*Navbar Lioden Logo*/
@@ -201,7 +198,7 @@ content: url('https://i.imgur.com/LiodenLogoReplacement.png');
 }
 /*Unsorted Lions*/
 img[src$="unsortedlionsbanner.png"] {
-content: url('https://i.postimg.cc/XZf1LbDS/741901275-2049967022276435-5905882186561249853-n.jpg')!important;
+content: url('https://i.postimg.cc/ZCQH3XQm/746522634-2569993123458117-4124967729270601957-n.jpg')!important;
 }
 
 /*Nesting*/
@@ -226,6 +223,11 @@ content: url("https://i.postimg.cc/GT2Mbs3w/746463315-1381033347243767-241390437
 img[src$="addbeetlemound.png"] {
 content: url("https://i.postimg.cc/GT2Mbs3w/746463315-1381033347243767-2413904374900258847-n.jpg") !important;
 }
+/*Default*/
 img[src$="cavedefault.jpg"] {
 content: url("https://i.postimg.cc/qzTZqPWP/742185681-1387645573263968-8228856639868661354-n.jpg") !important;
+}
+/*Unused Slot*/
+img[src$="caveunused.jpg"] {
+content: url("https://i.postimg.cc/T5pm33fD/742031157-1984855878885991-1652869808125409312-n.jpg") !important;
 }
