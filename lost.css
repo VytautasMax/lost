@@ -191,6 +191,85 @@ background: rgba(93, 93, 93, 0.21);
 border: 1px solid #000;
 border-left: none;
 }
+/* PREGNANT LIONESSES */
+
+div.cave-grid>img {
+	content: url('https://i.postimg.cc/fy71jx6L/746463315-1381033347243767-2413904374900258847-n.jpg')!important;
+
+/* CAVES (Copy paste to add more) */
+
+a[href$="cave ID here"]>div.cave-grid>img {
+	content: url('IMG URL HERE')!important;
+}
+a[href$="cave ID here"]>div.cave-grid>img {
+	content: url('URL HERE')!important;
+}
+a[href$="cave ID here"]>div.cave-grid>img {
+	content: url('URL HERE')!important;
+}
+
+
+/* UNSORTED */
+
+a[href$="unsorted.php?id=USERID"]>div.cave-grid>img {
+	content: url('https://i.postimg.cc/fy71jx6L/746463315-1381033347243767-2413904374900258847-n.jpg')!important;
+}
+
+
+/* PRIDE OVERVIEW */
+
+a[href$="lionoverview.php?id=USERID"]>div.cave-grid>img {
+	content: url('https://i.postimg.cc/fy71jx6L/746463315-1381033347243767-2413904374900258847-n.jpg')!important;
+}
+
+
+/* MOUNDS */
+
+.mound-grid img {
+	background: url('https://i.postimg.cc/fy71jx6L/746463315-1381033347243767-2413904374900258847-n.jpg');
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 130px;
+}
+
+.credit {
+background: rgb(115 147 109 / 70%);
+
+color: #8bb994;
+
+z-index:100;
+
+padding: 10px;
+
+border: none;
+
+position: fixed;
+
+text-align: center;
+
+border-radius: 5px;
+
+left: 0px;
+
+bottom: 0px;
+
+width: auto;
+
+height: auto;
+
+overflow: auto;
+
+border-width: 2px !important;
+
+border-style: solid !important;
+
+border-color: rgba(0,0,0) !important;
+
+border-image: initial !important;
+
+border: none !important;
+}
 .breadcrumb {
     position: relative;
 }
