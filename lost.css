@@ -191,18 +191,61 @@ background: rgba(93, 93, 93, 0.21);
 border: 1px solid #000;
 border-left: none;
 }
+.breadcrumb {
+    position: relative;
+}
+
 .breadcrumb::after {
-	content: "CSS by Kyle Gaz Garrick (#496397)";
-	position: absolute;
-	right: 20%;
-	z-index: 100;
-	color: #ffffff;
-body, * {
-    cursor: url("https://cdn.cursors-4u.net/previews/avro-vulcan-b-2-military-jet-a2e6a820-32.webp") 16 16, auto !important;
+    content: "CSS by Kyle Gaz Garrick (#496397)";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    font-size: 12px;
+    z-index: 100;
 }
-div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
-    content: url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg");
+html {
+    cursor: url("https://i.postimg.cc/C1ngDnhh/stubby-normal3.jpg"), auto;
 }
-<div class="pagedoll">
-    <img src="https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg" height="380" alt="">
-</div>
+
+a,
+button,
+input,
+select,
+textarea {
+    cursor: pointer;
+}
+}.navbar-header img {
+    opacity: 0;
+}
+.navbar-header a {
+    position: relative;
+}
+
+.navbar-header a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 180px;
+    height: 70px;
+
+    background: url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg") center/contain no-repeat;
+}
+.container.main::after {
+    content: "";
+
+    position: fixed;
+    right: 20px;
+    bottom: 0;
+
+    width: 260px;
+    height: 350px;
+
+    background: url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg") center/contain no-repeat;
+
+    pointer-events: none;
+    z-index: 999;
+}
