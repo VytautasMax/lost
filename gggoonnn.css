@@ -241,14 +241,11 @@ body::after{
     content:"";
     position:fixed;
     bottom:0;
-    right:calc(25% + 20px); /* Adjust until it sits just left of the sidebar */
-
-    width:350px;
-    height:500px;
-
+    right:-140px;
+    width:500px;
+    height:350px;
     background:url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg") no-repeat bottom right;
     background-size:contain;
-
     pointer-events:none;
     z-index:10;
 }
