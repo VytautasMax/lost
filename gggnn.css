@@ -235,21 +235,15 @@ content: url("https://i.postimg.cc/T5pm33fD/742031157-1984855878885991-165286980
 img[src$="logo-full-2.png"] {
 content: url('https://i.postimg.cc/Y9brgWBS/nav.png');}
 
-/* Pagedoll */
-
-#pagedoll{
+body::after{
+    content: "";
     position: fixed;
-    bottom: 10px;
-    right: 10px;
-
-    width: 250px;      /* Change to your image size */
-    height: 350px;
-
-    background-image: url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg");
+    bottom: 0;
+    right: 20px;
+    width: 300px;
+    height: 500px;
+    background: url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg") no-repeat bottom center;
     background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-
     pointer-events: none;
     z-index: 9999;
 }
