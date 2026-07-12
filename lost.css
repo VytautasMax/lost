@@ -207,3 +207,23 @@ border-left: none;
     z-index: 9999;
     pointer-events: none;
 }
+.mound-grid img{
+
+    background:url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg") center/cover no-repeat;
+
+    width:0;
+    height:0;
+
+    padding-top:90px;
+    padding-right:140px;
+}
+a[href$="unsorted.php?id=USERID"] div.cave-grid img{
+
+    content:url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg") !important;
+
+}
+a[href$="dynasty.php?id=USERID"] div.cave-grid img{
+
+    content:url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg") !important;
+
+}
