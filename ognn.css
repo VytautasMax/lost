@@ -245,11 +245,11 @@ content: url('https://i.postimg.cc/Y9brgWBS/nav.png');}
     content:"";
     position:fixed;
 
-    bottom:-30;
+    bottom:0;
     left:50%;
 
-    width:350px;
-    height:500px;
+    width:250px;
+    height:700px;
 
     margin-left:600px;
 
