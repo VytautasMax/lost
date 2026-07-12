@@ -217,7 +217,7 @@ content: url('https://i.imgur.com/LiodenLogoReplacement.png');
 }
 /*Unsorted Lions*/
 img[src$="unsortedlionsbanner.png"] {
-content: url('https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg')!important;
+content: url('https://i.postimg.cc/XZf1LbDS/741901275-2049967022276435-5905882186561249853-n.jpg')!important;
 }
 
 /*Nesting*/
@@ -241,5 +241,5 @@ content: url("https://i.postimg.cc/pd4N2VfT/741901275-2049967022276435-590588218
 }
 
 img[src$="addbeetlemound.png"] {
-content: url("https://i.postimg.cc/pd4N2VfT/741901275-2049967022276435-5905882186561249853-n.jpg") !important;
+content: url("https://i.postimg.cc/XZf1LbDS/741901275-2049967022276435-5905882186561249853-n.jpg") !important;
 }
