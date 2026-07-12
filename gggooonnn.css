@@ -237,15 +237,25 @@ content: url("https://i.postimg.cc/T5pm33fD/742031157-1984855878885991-165286980
 img[src$="logo-full-2.png"] {
 content: url('https://i.postimg.cc/Y9brgWBS/nav.png');}
 
-body::after{
+.main{
+    position: relative;
+}
+
+.main::after{
     content:"";
     position:fixed;
+
     bottom:0;
-    right:-140px;
-    width:500px;
-    height:350px;
-    background:url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg") no-repeat bottom right;
+    left:50%;
+
+    width:350px;
+    height:500px;
+
+    margin-left:180px;
+
+    background:url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg") no-repeat bottom center;
     background-size:contain;
+
     pointer-events:none;
-    z-index:10;
+    z-index:100;
 }
