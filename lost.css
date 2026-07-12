@@ -203,6 +203,6 @@ body, * {
 div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
     content: url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg");
 }
-	<div class="pagedoll">
-    <img src="https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg">
+<div class="pagedoll">
+    <img src="https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg" height="380" alt="">
 </div>
