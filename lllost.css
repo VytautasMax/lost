@@ -195,22 +195,6 @@ border-left: none;
     content:url("https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg") !important;
 
 }
-/* Credits */
-.breadcrumb {
-    position: relative;
-}
-
-.breadcrumb::after {
-    content: "CSS by Kyle Gaz Garrick (#496397)";
-    position: absolute;
-    top: 50%;
-    right: 15px;
-    transform: translateY(-50%);
-    color: #fff;
-    font-size: 12px;
-    z-index: 9999;
-    pointer-events: none;
-}
 /*Navbar Lioden Logo*/
 img[src$="https://i.postimg.cc/nrgvC7wq/CORVETTE.jpg"] {
 content: url('https://i.imgur.com/LiodenLogoReplacement.png');
@@ -233,13 +217,13 @@ a[href="https://www.lioden.com/cave.php?id=442974"] img {content: url('https://i
 }
 /*Default Mound Image*/
 img[src$="beetleunsorted.png"] {
-content: url("https://i.postimg.cc/pd4N2VfT/741901275-2049967022276435-5905882186561249853-n.jpg") !important;
+content: url("https://postimg.cc/XZPgFK5s") !important;
 }
 
 img[src$="beetlemound.png"] {
-content: url("https://i.postimg.cc/pd4N2VfT/741901275-2049967022276435-5905882186561249853-n.jpg") !important;
+content: url("https://postimg.cc/XZPgFK5s") !important;
 }
 
 img[src$="addbeetlemound.png"] {
-content: url("https://i.postimg.cc/XZf1LbDS/741901275-2049967022276435-5905882186561249853-n.jpg") !important;
+content: url("https://postimg.cc/XZPgFK5s") !important;
 }
