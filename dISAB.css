@@ -92,12 +92,12 @@ box-shadow: none;
 }
  
 .progress-bar {
-background: #BABD8F;
+background: #D9D6C5;
 }
  
 .progress {
 background: #f7f7f7;
-border: 1px solid #000;
+border: 1px solid #4D4833;
 }
  
  
@@ -110,7 +110,7 @@ color: #4D4833;
 }
 
 .chatContainer {
-border: 1px solid #000;
+border: 1px solid #4D4833;
 }
  
 .userstolen {
@@ -120,7 +120,7 @@ background: none;
 .alert-danger {
 color: #4D4833;
 background: rgba(93, 93, 93, 0.21);
-border: 1px solid #000;
+border: 1px solid #4D4833;
 }
 
 .alert-success {
