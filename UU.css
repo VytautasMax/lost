@@ -293,7 +293,7 @@ width: 20px !important;
 }
 
 .breadcrumb::after {
-    content: "CSS By Kyle Gaz Garrick (#496397)...............";
+    content: "CSS By Kyle Gaz Garrick (#496397)";
     position: absolute;
     top: 50%;
     right: 15px;
