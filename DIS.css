@@ -264,5 +264,18 @@ body {
 cursor: url("https://cdn.cursors-4u.net/previews/mikoyan-mig-1-44-flatpack-military-jet-c2bfe5a0-32.webp") 32 32, auto;
 }
 
+/*-------------------------*/
+/*Beetles*/
+/*-------------------------*/
+img[src$="icon-beetle-gold.png"] {
+content: url("https://i.postimg.cc/RVL7HmM0/Gold496397.png") !important;
+width: 20px !important;
+}
+
+img[src$="icon-beetle-silver.png"] {
+content: url("https://i.postimg.cc/Hsg0nn14/Silver496397.png") !important;
+width: 20px !important;
+}
+
 
 
