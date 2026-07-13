@@ -8,14 +8,14 @@ h1, h3 , .sidebar h3 {
 font-family: Arial !important;
 text-align: left;
 color: #4D4833;
-border-bottom: 1px solid #000;
+border-bottom: 1px solid #4D4833;
 }
 
 /* Buttons */
 input[type="button"], input[type="submit"], input[type="submit"]:hover {
 background: rgba(93, 93, 93, 0.21);
 color: #4D4833;
-border: 1px solid #000;
+border: 1px solid #4D4833;
 text-shadow: none;
 font-weight: bold;
 font-size: 14px;
@@ -30,7 +30,7 @@ color: #4D4833;
 }
  
 .table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
-border-bottom: 1px solid #000000;
+border-bottom: 1px solid #4D4833;
 color: #4D4833;
 }
  
