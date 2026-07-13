@@ -259,3 +259,7 @@ content: url('https://i.postimg.cc/Y9brgWBS/nav.png');}
     pointer-events:none;
     z-index:100;
 }
+/* Cursor*?
+body, *{
+    cursor: url("https://i.postimg.cc/Jz5X8Zqj/stubby-normal3.jpg"), auto !important;
+}
