@@ -178,7 +178,7 @@ color: #000000;
 
 .cave-grid, div .left, .mound-grid {
 border: 1px solid #000;
-background: #5D5D5D;
+background: #4D4833;
 color: #000000;
 }
 
@@ -276,6 +276,15 @@ img[src$="icon-beetle-silver.png"] {
 content: url("https://i.postimg.cc/ncWHTjVK/Untitled88-20260713224720.png") !important;
 width: 20px !important;
 }
-
+.feature,
+.feature .bottom,
+.feature .left,
+.item,
+.item-header,
+.item-footer,
+.cave-grid,
+.mound-grid{
+    background:#4D4833 !important;
+}
 
 
