@@ -261,7 +261,7 @@ content: url('https://i.postimg.cc/Y9brgWBS/nav.png');}
 }
 /* Cursor*/
 body {
-cursor: url("https://cdn.cursors-4u.net/previews/skull-9b50c1d6-32.webp"), auto;
+cursor: url("https://cdn.cursors-4u.net/previews/skull-9b50c1d6-32.webp") 32 32, auto;
 }
 
 
