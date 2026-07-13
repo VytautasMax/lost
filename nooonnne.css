@@ -260,7 +260,9 @@ content: url('https://i.postimg.cc/Y9brgWBS/nav.png');}
     z-index:100;
 }
 /* Cursor*/
-{
-    cursor: url(https://cdn.cursors-4u.net/css-previews/blinking-hello-kitty-angel-c592abfe-css.webp), auto !important;
+body {
+cursor: url("https://cdn.cursors-4u.net/previews/mikoyan-mig-1-44-flatpack-military-jet-c2bfe5a0-32.webp"), auto;
 }
+
+
 
