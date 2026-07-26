@@ -200,17 +200,17 @@ content: url('https://i.imgur.com/LiodenLogoReplacement.png');
 }
 /*Unsorted Lions*/
 img[src$="unsortedlionsbanner.png"] {
-content: url('https://i.postimg.cc/mD9LnCs4/743081380-27849500124644791-8224747940941158166-n.jpg')!important;
+content: url('https://i.postimg.cc/k5fYdp77/A.jpg')!important;
 }
 
 /*Nesting*/
 img[src$="nestingbanner.png"] {
-content: url('https://i.postimg.cc/zbDGq28T/742799100-1365587775669589-4836973436538232005-n.jpg')!important;
+content: url('https://i.postimg.cc/zfcMgc6s/G.jpg')!important;
 }
 
 /*Overview*/
 img[src$="overviewbanner.png"] {
-content: url('https://i.postimg.cc/WbTN9dYk/742045426-1945378356167042-674473160213143009-n.jpg')!important;
+content: url('https://i.postimg.cc/4dyL4Qdk/B.jpg')!important;
 }
 
 /*Default Mound Image*/
@@ -227,11 +227,11 @@ content: url("https://i.postimg.cc/GT2Mbs3w/746463315-1381033347243767-241390437
 }
 /*Default*/
 img[src$="cavedefault.jpg"] {
-content: url("https://i.postimg.cc/qzTZqPWP/742185681-1387645573263968-8228856639868661354-n.jpg") !important;
+content: url("https://i.postimg.cc/TYn6XfFd/C.jpg") !important;
 }
 /*Unused Slot*/
 img[src$="caveunused.jpg"] {
-content: url("https://i.postimg.cc/XYDn7QjP/742031157-1984855878885991-1652869808125409312-n.jpg") !important;
+content: url("https://i.postimg.cc/W1sQLrMV/F.jpg") !important;
 }
 /*Navbar Lioden Logo*/
 img[src$="logo-full-2.png"] {
