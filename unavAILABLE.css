@@ -21,6 +21,19 @@ font-weight: bold;
 font-size: 14px;
 border-radius: 5px;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #6A735A;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #25281F;
+    border-radius: 10px;
+}
  
  
 /* Links */
@@ -92,7 +105,7 @@ box-shadow: none;
 }
  
 .progress-bar {
-background: #D9D6C5;
+background: #9E9B83;
 }
  
 .progress {
@@ -119,7 +132,7 @@ background: none;
 
 .alert-danger {
 color: #000000;
-background: rgba(196, 84, 84, 0.21);
+background: rgba(44, 46, 34, 0.21);
 border: 1px solid #000000;
 }
 
