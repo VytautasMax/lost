@@ -40,7 +40,29 @@ border-radius: 5px;
 .comment span {
     color: #211111 !important;
 }
- 
+/*for den scrolling boxes of info*/
+ .hover-scrollbox {
+    width: 350px !important;
+    height: 80px !important;
+    box-sizing: border-box !important;
+
+    background: #1b281d !important;
+    border: 3px solid #000000 !important;
+    border-radius: 10px !important;
+
+    padding: 15px !important;
+    margin: 10px auto !important;
+
+    color: #d5d5c8 !important;
+
+    overflow: hidden !important;
+    transition: height 0.4s ease !important;
+}
+
+.hover-scrollbox:hover {
+    height: 250px !important;
+    overflow-y: auto !important;
+}
 /* Links */
  
 .table a:link, .table a:active, .table a:visited, .right a:link, .right a:active, .right a:visited, .bottom a:link, .bottom a:active, .bottom a:visited, .topbar a:link, .topbar a:visited, .topbar a:active, a:link, a:visited, a:active {
