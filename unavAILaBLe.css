@@ -35,7 +35,9 @@ border-radius: 5px;
     border-radius: 10px;
 }
  /*colour for comment time*/
-.comment .small {
+.comment small,
+.comment .text-muted,
+.comment span {
     color: #211111 !important;
 }
  
