@@ -21,20 +21,23 @@ font-weight: bold;
 font-size: 14px;
 border-radius: 5px;
 }
-
+/*the colour of scrolling lines*/
 ::-webkit-scrollbar {
     width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #6A735A;
+    background: #A19B7A;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #25281F;
+    background: #70684C;
     border-radius: 10px;
 }
- 
+ /*colour for comment time*/
+.comment .small {
+    color: #211111 !important;
+}
  
 /* Links */
  
