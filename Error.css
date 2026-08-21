@@ -41,28 +41,49 @@ border-radius: 5px;
     color: #211111 !important;
 }
 /*for den scrolling boxes of info*/
- .hover-scrollbox {
-    width: 350px !important;
-    height: 80px !important;
+ /* Holds all 3 boxes side by side */
+.box-row {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    gap: 15px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* The boxes */
+.hover-scrollbox {
+    width: 30% !important;
+    height: 90px !important;
     box-sizing: border-box !important;
 
-    background: #1b281d !important;
-    border: 3px solid #000000 !important;
+    background-color: #9E9B83 !important;
+    border: 3px double #000000 !important;
     border-radius: 10px !important;
 
     padding: 15px !important;
-    margin: 10px auto !important;
+    margin: 0 !important;
 
     color: #d5d5c8 !important;
+    text-align: center !important;
 
     overflow: hidden !important;
     transition: height 0.4s ease !important;
 }
 
+/* Makes the box open when you hover over it */
 .hover-scrollbox:hover {
     height: 250px !important;
     overflow-y: auto !important;
 }
+
+/* Scrollbar width */
+.hover-scrollbox::-webkit-scrollbar {
+    width: 8px !important;
+}
+/*Finish*/
+/*Swedish hahahha, nah, on a serious note: End*/
+
 /* Links */
  
 .table a:link, .table a:active, .table a:visited, .right a:link, .right a:active, .right a:visited, .bottom a:link, .bottom a:active, .bottom a:visited, .topbar a:link, .topbar a:visited, .topbar a:active, a:link, a:visited, a:active {
